@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anacleto Gonzalez Flores | Memoria, Justicia y Fe por Jalisco</title>
+    
+    <!-- ============================================
+         SECCION: META Y SEO
+         Descripcion para motores de busqueda
+    ============================================= -->
+    <meta name="description" content="Campana para honrar la memoria de Anacleto Gonzalez Flores, martir y defensor de la libertad religiosa en Jalisco.">
+    
+    <!-- ============================================
+         SECCION: TIPOGRAFIAS (Google Fonts)
+         - Playfair Display: Titulos (estilo periodistico)
+         - Lora: Texto de lectura (serif legible)
+         - Source Sans Pro: UI y navegacion
+    ============================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- ============================================
+         SECCION: LIBRERIAS CSS EXTERNAS
+         - Bootstrap 5.3: Framework CSS responsivo
+           https://getbootstrap.com/
+         - AOS: Animaciones al hacer scroll
+           https://michalsnik.github.io/aos/
+         - Bootstrap Icons: Iconografia
+           https://icons.getbootstrap.com/
+    ============================================= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- ============================================
+         SECCION: ESTILOS PROPIOS
+         Enlazado a: estilos.css
+    ============================================= -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- ============================================
+         SECCION: NAVEGACION PRINCIPAL
+         Barra de navegacion fija con enlaces a secciones
+         y paginas secundarias
+         VINCULADO A: scripts.js (inicializarNavbar)
+    ============================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-principal">
+        <div class="container">
+            <a class="navbar-brand marca-periodico" href="index.html">
+                <span class="marca-año">EST. 1888</span>
+                <span class="marca-titulo">MEMORIA DE JALISCO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linea-tiempo">Cronologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anacleto.html">Anacleto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contexto.html">Contexto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="causa.html">La Causa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         SECCION: HERO / CABECERA PRINCIPAL
+         Imagen de fondo con titulo principal y resumen
+         IMAGEN: anacletoprincipal.jpeg (mural artistico)
+         VINCULADO A: scripts.js (efecto parallax)
+         VINCULADO A: estilos.css (.hero-section)
+    ============================================= -->
+    <header class="hero-section" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="encabezado-periodico" data-aos="fade-down" data-aos-duration="1000">
+                <div class="linea-decorativa"></div>
+                <span class="edicion">EDICION ESPECIAL</span>
+                <div class="linea-decorativa"></div>
+            </div>
+            <h1 class="hero-titulo" data-aos="fade-up" data-aos-duration="1200">
+                ANACLETO<br>GONZALEZ FLORES
+            </h1>
+            <p class="hero-subtitulo" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                Memoria, Justicia y Fe por Jalisco
+            </p>
+            <div class="hero-cita" data-aos="fade-up" data-aos-delay="400">
+                <blockquote>
+                    "No tomo las armas. Movilizo conciencias."
+                </blockquote>
+            </div>
+            <a href="#resumen" class="btn-scroll" data-aos="fade-up" data-aos-delay="600">
+                <span>Descubre su historia</span>
+                <i class="bi bi-chevron-double-down"></i>
+            </a>
+        </div>
+        <div class="hero-fecha">
+            <span>Centenario 1926 - 2026</span>
+        </div>
+    </header>
+
+    <!-- ============================================
+         SECCION: RESUMEN PRINCIPAL
+         Tres columnas con la identidad de Jalisco
+         VINCULADO A: estilos.css (.seccion-resumen)
+    ============================================= -->
+    <section class="seccion-resumen" id="resumen">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="resumen-encabezado" data-aos="fade-up">
+                        <div class="ornamento-linea"></div>
+                        <h2>Jalisco Tiene Historia</h2>
+                        <div class="ornamento-linea"></div>
+                    </div>
+                    
+                    <div class="row tarjetas-identidad">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="tarjeta-identidad">
+                                <div class="tarjeta-icono">
+                                    <i class="bi bi-book"></i>
+                                </div>
+                                <h3>Memoria</h3>
+                                <p>Jalisco tiene memoria. Un pueblo que recuerda es un pueblo que sana.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tarjeta-identidad destacada">
+                                <div class="tarjeta-icono">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <h3>Identidad</h3>
+                                <p>Jalisco tiene identidad. Los nombres cuentan la historia de un pueblo.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="tarjeta-identidad">
+                                <div class="tarjeta-icono">
+                                    <i class="bi bi-hourglass-split"></i>
+                                </div>
+                                <h3>Historia</h3>
+                                <p>Jalisco tiene historia. Hoy es momento de honrarla.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cita destacada -->
+                    <div class="cita-destacada" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="cita-comillas"><i class="bi bi-quote"></i></div>
+                        <p>Este no es solo un cambio de nombre.<br><strong>Es un acto de justicia historica.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: QUIEN FUE ANACLETO
+         Informacion introductoria del personaje
+         IMAGEN: anacletojuntacolor.jpeg
+         VINCULADO A: estilos.css (.seccion-quien-fue)
+    ============================================= -->
+    <section class="seccion-quien-fue" id="quien-fue">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="quien-fue-imagen">
+                        <img src="images/anacletojuntacolor.jpeg" alt="Anacleto Gonzalez Flores y lideres de la Union Popular" class="img-fluid">
+                        <div class="imagen-etiqueta">La Union Popular</div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="quien-fue-contenido">
+                        <span class="etiqueta-seccion">QUIEN FUE</span>
+                        <h2>Anacleto Gonzalez Flores</h2>
+                        <div class="datos-basicos">
+                            <span><i class="bi bi-geo-alt"></i> Tepatitlan, Jalisco (1888)</span>
+                            <span><i class="bi bi-mortarboard"></i> Abogado y Maestro</span>
+                            <span><i class="bi bi-people"></i> Lider Social</span>
+                        </div>
+                        <p class="texto-principal">Defensor de la dignidad humana y la libertad de conciencia. Anacleto enseno que la fe y la razon podian caminar juntas.</p>
+                        <div class="caracteristicas-grid">
+                            <div class="caracteristica-item">
+                                <i class="bi bi-heart"></i>
+                                <span>Formo jovenes y familias en valores de verdad y respeto</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <i class="bi bi-hand-index"></i>
+                                <span>No tomo las armas, movilizo conciencias</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <i class="bi bi-peace"></i>
+                                <span>Fue capturado y ejecutado sin juicio</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <i class="bi bi-star"></i>
+                                <span>Murio perdonando a sus verdugos</span>
+                            </div>
+                        </div>
+                        <div class="valores-anacleto">
+                            <h4>Hoy es simbolo de:</h4>
+                            <div class="valores-badges">
+                                <span class="valor-badge">Coraje Civil</span>
+                                <span class="valor-badge">Amor a la Patria</span>
+                                <span class="valor-badge">Resistencia Etica</span>
+                            </div>
+                        </div>
+                        <p class="texto-beatificacion"><i class="bi bi-award"></i> Beatificado en 2005, su legado sigue vivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: LLAMADO A LA ACCION
+         Propuesta del cambio de nombre
+         IMAGEN: anacletoprincipal.jpeg
+         VINCULADO A: estilos.css (.seccion-causa)
+    ============================================= -->
+    <section class="seccion-causa" id="causa-preview">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="imagen-causa">
+                        <img src="images/anacletoprincipal.jpeg" alt="Mural artistico de Anacleto Gonzalez Flores" class="img-fluid">
+                        <div class="marco-decorativo"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contenido-causa">
+                        <span class="etiqueta-seccion">UNA CAUSA POR LA MEMORIA</span>
+                        <h2>Proponemos cambiar el nombre de la Avenida Plutarco Elias Calles</h2>
+                        <p class="texto-destacado">por el de <strong>Avenida Anacleto Gonzalez Flores</strong></p>
+                        <p class="subtexto">Martir y defensor de la libertad religiosa</p>
+                        
+                        <div class="razones-lista">
+                            <div class="razon-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Porque los nombres cuentan la historia de un pueblo</span>
+                            </div>
+                            <div class="razon-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Porque la memoria no se borra: se honra</span>
+                            </div>
+                            <div class="razon-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Porque un pueblo que recuerda, sana</span>
+                            </div>
+                        </div>
+
+                        <a href="causa.html" class="btn-periodico">
+                            <span>Conoce mas sobre la causa</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: RAZONES DEL CAMBIO
+         Justificacion de la propuesta
+         VINCULADO A: estilos.css (.seccion-razones)
+    ============================================= -->
+    <section class="seccion-razones" id="razones">
+        <div class="container">
+            <div class="razones-encabezado" data-aos="fade-up">
+                <span class="etiqueta-seccion">POR QUE ESTE CAMBIO</span>
+                <h2>Razones para el Cambio</h2>
+            </div>
+            <div class="row razones-grid">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="razon-card">
+                        <div class="razon-numero">01</div>
+                        <h3>Memoria Historica</h3>
+                        <p>Porque honrar a Calles para muchos significa recordar persecucion religiosa, no progreso.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="razon-card">
+                        <div class="razon-numero">02</div>
+                        <h3>Identidad Jalisciense</h3>
+                        <p>Porque Jalisco no olvida su historia ni a quienes defendieron sus convicciones.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="razon-card">
+                        <div class="razon-numero">03</div>
+                        <h3>Valores que Construyen</h3>
+                        <p>Porque Anacleto representa valores que construyen identidad: fe, justicia, paz y verdad.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="razon-card">
+                        <div class="razon-numero">04</div>
+                        <h3>Momento de Reconciliacion</h3>
+                        <p>Porque el centenario de la Guerra Cristera (2026) es momento de reconciliacion y memoria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: LINEA DEL TIEMPO
+         Cronologia dinamica cargada desde JSON
+         VINCULADO A: scripts.js (funcion cargarTimeline)
+         DATOS: datos-timeline.json
+         VINCULADO A: estilos.css (.seccion-timeline)
+    ============================================= -->
+    <section class="seccion-timeline" id="linea-tiempo">
+    <div class="container">
+        <div class="timeline-encabezado" data-aos="fade-up">
+            <span class="etiqueta-seccion">CRONOLOGIA</span>
+            <h2>Una Historia que Jalisco No Olvida</h2>
+            <p>Recorre los momentos clave que marcaron la vida de Anacleto</p>
+        </div>
+
+        <!-- IMPORTANTE: linea va dentro -->
+        <div class="timeline-container" id="timeline-container">
+            <div class="timeline-linea"></div>
+            <!-- eventos dinámicos -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- ============================================
+         SECCION: MEMORIA HISTORICA
+         Contexto del gobierno de Calles
+         IMAGEN: anacletojuntamitad.jpeg
+         VINCULADO A: estilos.css (.seccion-memoria)
+    ============================================= -->
+    <section class="seccion-memoria" id="memoria">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div class="memoria-contenido">
+                        <span class="etiqueta-seccion">MEMORIA HISTORICA</span>
+                        <h2>Durante el gobierno de Plutarco Elias Calles</h2>
+                        <div class="memoria-lista">
+                            <div class="memoria-item">
+                                <i class="bi bi-x-circle"></i>
+                                <span>Se limitaron libertades religiosas</span>
+                            </div>
+                            <div class="memoria-item">
+                                <i class="bi bi-x-circle"></i>
+                                <span>Se cerraron templos</span>
+                            </div>
+                            <div class="memoria-item">
+                                <i class="bi bi-x-circle"></i>
+                                <span>Se persiguio a sacerdotes y creyentes</span>
+                            </div>
+                            <div class="memoria-item">
+                                <i class="bi bi-x-circle"></i>
+                                <span>Se promulgo la Ley Calles (1926)</span>
+                            </div>
+                        </div>
+                        <p class="memoria-texto">Esto derivo en un conflicto nacional con profundas consecuencias humanas y sociales. Para muchos jaliscienses, esta etapa dejo una huella que forma parte de la memoria colectiva del estado.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="memoria-imagen">
+                        <img src="images/anacletojuntamitad.jpeg" alt="Jalisco no olvida a quien intento arrebatarle su alma" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: ACTO DE DIGNIDAD
+         Significado del cambio de nombre
+         VINCULADO A: estilos.css (.seccion-dignidad)
+    ============================================= -->
+    <section class="seccion-dignidad" id="dignidad">
+        <div class="container">
+            <div class="dignidad-contenido" data-aos="zoom-in">
+                <span class="etiqueta-seccion">UN ACTO DE DIGNIDAD</span>
+                <h2>Cambiar el nombre de la avenida es:</h2>
+                <div class="dignidad-grid">
+                    <div class="dignidad-item">
+                        <i class="bi bi-book"></i>
+                        <span>Reconocer la historia</span>
+                    </div>
+                    <div class="dignidad-item">
+                        <i class="bi bi-heart"></i>
+                        <span>Honrar convicciones profundas</span>
+                    </div>
+                    <div class="dignidad-item">
+                        <i class="bi bi-people"></i>
+                        <span>Dar voz a la memoria colectiva</span>
+                    </div>
+                    <div class="dignidad-item">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <span>Promover reconciliacion</span>
+                    </div>
+                </div>
+                <div class="dignidad-nota">
+                    <p><strong>No es borrar el pasado.</strong><br>Es reconocerlo con justicia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: NAVEGACION A PAGINAS SECUNDARIAS
+         Botones para acceder a informacion detallada
+         IMAGENES: anacletoprincipal, anacletobandera, anacletojuntacolor
+         VINCULADO A: estilos.css (.seccion-navegacion)
+    ============================================= -->
+    <section class="seccion-navegacion" id="explorar">
+        <div class="container">
+            <div class="nav-encabezado" data-aos="fade-up">
+                <h2>Explora la Historia Completa</h2>
+                <p>Conoce cada aspecto de esta causa por la memoria de Jalisco</p>
+            </div>
+
+            <div class="row nav-tarjetas">
+                <!-- Tarjeta: Anacleto -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <a href="anacleto.html" class="nav-tarjeta">
+                        <div class="nav-tarjeta-imagen">
+                            <img src="images/anacletoprincipal.jpeg" alt="Anacleto Gonzalez Flores">
+                            <div class="nav-tarjeta-overlay"></div>
+                        </div>
+                        <div class="nav-tarjeta-contenido">
+                            <span class="nav-tarjeta-numero">01</span>
+                            <h3>Anacleto Gonzalez Flores</h3>
+                            <p>Conoce la vida del martir de la libertad religiosa</p>
+                            <span class="nav-tarjeta-enlace">
+                                Leer mas <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Tarjeta: Contexto Historico -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <a href="contexto.html" class="nav-tarjeta">
+                        <div class="nav-tarjeta-imagen">
+                            <img src="images/anacletobandera.jpg" alt="Guerra Cristera">
+                            <div class="nav-tarjeta-overlay"></div>
+                        </div>
+                        <div class="nav-tarjeta-contenido">
+                            <span class="nav-tarjeta-numero">02</span>
+                            <h3>Contexto Historico</h3>
+                            <p>La Guerra Cristera y el conflicto religioso</p>
+                            <span class="nav-tarjeta-enlace">
+                                Leer mas <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Tarjeta: La Causa -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <a href="causa.html" class="nav-tarjeta">
+                        <div class="nav-tarjeta-imagen">
+                            <img src="images/anacletojuntacolor.jpeg" alt="La Causa">
+                            <div class="nav-tarjeta-overlay"></div>
+                        </div>
+                        <div class="nav-tarjeta-contenido">
+                            <span class="nav-tarjeta-numero">03</span>
+                            <h3>La Causa</h3>
+                            <p>Por que cambiar el nombre de la avenida</p>
+                            <span class="nav-tarjeta-enlace">
+                                Leer mas <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: LLAMADO FINAL
+         Mensaje de cierre y accion
+         VINCULADO A: estilos.css (.seccion-llamado)
+    ============================================= -->
+    <section class="seccion-llamado" id="llamado">
+        <div class="container">
+            <div class="llamado-contenido" data-aos="fade-up">
+                <h2>Jalisco tiene derecho a honrar a quienes defendieron sus valores</h2>
+                <p>Hoy podemos dar un paso hacia la memoria y la reconciliacion.</p>
+                <a href="causa.html" class="btn-periodico-grande">
+                    <span>Unete a la causa</span>
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCION: FOOTER
+         Pie de pagina con informacion adicional
+         VINCULADO A: estilos.css (.footer-principal)
+    ============================================= -->
+    <footer class="footer-principal">
+        <div class="container">
+            <div class="footer-contenido">
+                <div class="footer-marca">
+                    <span class="marca-año">EST. 1888</span>
+                    <span class="marca-titulo">MEMORIA DE JALISCO</span>
+                </div>
+                <div class="footer-cita">
+                    <p>"Jalisco no olvida a quien intento arrebatarle su alma."</p>
+                </div>
+                <div class="footer-info">
+                    <p>Centenario de la Guerra Cristera 1926 - 2026</p>
+                    <p class="footer-legal">Proyecto de concientizacion historica</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- ============================================
+         - Bootstrap JS: Componentes interactivos
+           https://getbootstrap.com/
+         - AOS: Animaciones al scroll
+           https://michalsnik.github.io/aos/
+         - scripts.js: Funcionalidad propia
+    ============================================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
