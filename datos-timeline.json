@@ -4,91 +4,91 @@
       "año": "1888",
       "titulo": "Nace Anacleto Gonzalez Flores",
       "descripcion": "Nace en Tepatitlan de Morelos, Jalisco, en una familia humilde. Desde joven mostro vocacion por la justicia y la defensa de los valores humanos. Su infancia estuvo marcada por la fe y el trabajo duro.",
-      "imagen": "images/anacletoprincipal.jpeg",
+      "imagen": "images/anacletoprincipal.webp",
       "tipo": "nacimiento"
     },
     {
       "año": "1908",
       "titulo": "Inicia estudios de Derecho",
       "descripcion": "Anacleto comienza sus estudios de abogacia en Guadalajara. Destaca por su brillantez intelectual y su capacidad oratoria. Combina sus estudios con la ensenanza y el activismo social.",
-      "imagen": "images/anacletojunta.jpeg",
+      "imagen": "images/anacletojunta.webp",
       "tipo": "educacion"
     },
     {
       "año": "1915",
       "titulo": "Se recibe como Abogado",
       "descripcion": "Concluye sus estudios de Derecho y comienza a ejercer como abogado defensor de los mas necesitados. Tambien se dedica a la docencia, formando jovenes en valores y principios eticos.",
-      "imagen": "images/anacletojuntacolor.jpeg",
+      "imagen": "images/anacletojuntacolor.webp",
       "tipo": "logro"
     },
     {
       "año": "1920",
       "titulo": "Funda la Union Popular",
       "descripcion": "Anacleto funda la Union Popular, una organizacion civica que buscaba defender los derechos de los catolicos a traves de medios pacificos. Llego a contar con mas de 100,000 miembros en Jalisco.",
-      "imagen": "images/anacletojuntacolor.jpeg",
+      "imagen": "images/anacletojuntacolor.webp",
       "tipo": "organizacion"
     },
     {
       "año": "1924",
       "titulo": "Calles asume la presidencia",
       "descripcion": "Plutarco Elias Calles toma posesion como presidente de Mexico. Inicia una politica de restriccion religiosa sin precedentes, limitando el culto publico y persiguiendo a la Iglesia Catolica.",
-      "imagen": "images/anacletojuntamitad.jpeg",
+      "imagen": "images/anacletojuntamitad.webp",
       "tipo": "politico"
     },
     {
       "año": "1926",
       "titulo": "Ley Calles y conflicto religioso",
       "descripcion": "Se promulga la Ley Calles, una de las mas severas en materia religiosa. Establece sanciones penales a sacerdotes y limitaciones al culto publico. Los templos son cerrados y comienza la persecucion.",
-      "imagen": "images/anacletobandera.jpg",
+      "imagen": "images/anacletobandera.webp",
       "tipo": "conflicto"
     },
     {
       "año": "1926",
       "titulo": "Estalla la Guerra Cristera",
       "descripcion": "Ante la represion gubernamental, miles de catolicos toman las armas al grito de Viva Cristo Rey. El conflicto se extiende principalmente por Jalisco, Guanajuato, Michoacan y otros estados del centro-occidente.",
-      "imagen": "images/anacletobandera.jpg",
+      "imagen": "images/anacletobandera.webp",
       "tipo": "guerra"
     },
     {
       "año": "1927",
       "titulo": "Resistencia Pacifica de Anacleto",
       "descripcion": "Mientras otros toman las armas, Anacleto promueve la resistencia pacifica. Organiza boicots economicos, distribuye publicaciones clandestinas y mantiene viva la llama de la esperanza entre los perseguidos.",
-      "imagen": "images/anacletojunta.jpeg",
+      "imagen": "images/anacletojunta.webp",
       "tipo": "resistencia"
     },
     {
       "año": "1 Abril 1927",
       "titulo": "Captura de Anacleto",
       "descripcion": "Anacleto es capturado junto con otros companeros. Es sometido a torturas para que revele informacion sobre la resistencia catolica, pero se mantiene firme en su fe y sus principios.",
-      "imagen": "images/anacletoprincipal.jpeg",
+      "imagen": "images/anacletoprincipal.webp",
       "tipo": "captura"
     },
     {
       "año": "1 Abril 1927",
       "titulo": "Martirio de Anacleto",
       "descripcion": "Anacleto Gonzalez Flores es ejecutado sin juicio en los cuarteles de la policia de Guadalajara. Sus ultimas palabras fueron de perdon hacia sus verdugos: 'Yo muero, pero Dios no muere. Viva Cristo Rey!'",
-      "imagen": "images/anacletofuneral.jpg",
+      "imagen": "images/anacletofuneral.webp",
       "tipo": "martirio"
     },
     {
       "año": "1929",
       "titulo": "Fin de la Guerra Cristera",
       "descripcion": "Tras los Arreglos entre la Iglesia y el Estado, termina oficialmente el conflicto armado. Se estima que murieron entre 70,000 y 90,000 personas durante los tres anos de guerra.",
-      "imagen": "images/anacletobandera.jpg",
+      "imagen": "images/anacletobandera.webp",
       "tipo": "historico"
     },
     {
       "año": "2005",
       "titulo": "Beatificacion de Anacleto",
       "descripcion": "El Papa Benedicto XVI beatifica a Anacleto Gonzalez Flores junto con otros martires mexicanos, reconociendo oficialmente su sacrificio y testimonio de fe ante la persecucion.",
-      "imagen": "images/anacletoprincipal.jpeg",
+      "imagen": "images/anacletoprincipal.webp",
       "tipo": "reconocimiento"
     },
     {
       "año": "2026",
       "titulo": "Centenario de la Guerra Cristera",
       "descripcion": "Se cumple un siglo del inicio del conflicto. Es momento de reconciliacion, memoria y justicia historica para Jalisco. Proponemos honrar la memoria de Anacleto cambiando el nombre de la avenida.",
-      "imagen": "images/anacletojuntacolor.jpeg",
+      "imagen": "images/anacletojuntacolor.webp",
       "tipo": "centenario"
     }
   ]
