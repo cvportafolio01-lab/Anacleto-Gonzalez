@@ -842,7 +842,7 @@ p {
 }
 
 .timeline-evento:nth-of-type(odd) .timeline-punto {
-    right: -36px;
+    right: -30px;
 }
 
 .timeline-evento:nth-of-type(even) .timeline-punto {
@@ -886,15 +886,21 @@ p {
 
 /* Tipo */
 .timeline-tipo {
-    position: absolute;
-    top: 5px;
+    position: relative; /* cambia de absolute a relative */
     font-size: 0.7rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 5px 10px;
     background-color: var(--color-secundario);
     color: var(--color-texto-claro);
+    margin-bottom: 5px; /* agrega separación */
 }
+.timeline-item {
+    display: flex;
+    flex-direction: column; /* vertical en móviles */
+    gap: 5px; /* espacio entre los textos */
+}
+
 
 .timeline-evento:nth-of-type(odd) .timeline-tipo {
     right: 15px;
@@ -1424,5 +1430,15 @@ p {
 
 
 
+@media screen and (max-width: 480px) {
+    .timeline-año {
+        font-size: 1.5rem; /* más pequeño en móviles */
+    }
+
+    .timeline-tipo {
+        font-size: 0.6rem;
+        padding: 3px 6px;
+    }
+}
 
 
