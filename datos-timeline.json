@@ -18,7 +18,7 @@
       "año": "1915",
       "titulo": "Se recibe como Abogado",
       "descripcion": "Concluye sus estudios de Derecho y comienza a ejercer como abogado defensor de los mas necesitados. Tambien se dedica a la docencia, formando jovenes en valores y principios eticos.",
-      "imagen": "images/7.jpeg",
+      "imagen": "images/plutarcoyanacleto.jpeg",
       "tipo": "logro"
     },
     {
@@ -60,14 +60,14 @@
       "año": "1 Abril 1927",
       "titulo": "Captura de Anacleto",
       "descripcion": "Anacleto es capturado junto con otros companeros. Es sometido a torturas para que revele informacion sobre la resistencia catolica, pero se mantiene firme en su fe y sus principios.",
-      "imagen": "images/Fusiliamiento.jpg",
+      "imagen": "images/fusiliamientoanacleto.jpeg",
       "tipo": "captura"
     },
     {
       "año": "1 Abril 1927",
       "titulo": "Martirio de Anacleto",
       "descripcion": " Anacleto González Flores es ejecutado sin juicio en los cuarteles de la policia de Guadalajara. Sus ultimas palabras fueron de perdon hacia sus verdugos: 'Yo muero, pero Dios no muere. Viva Cristo Rey!'",
-      "imagen": "images/anacletofuneral.webp",
+      "imagen": "images/fusilamiento.jpeg",
       "tipo": "martirio"
     },
     {
@@ -81,14 +81,14 @@
       "año": "2005",
       "titulo": "Beatificacion de Anacleto",
       "descripcion": "El Papa Benedicto XVI beatifica a  Anacleto González Flores junto con otros martires mexicanos, reconociendo oficialmente su sacrificio y testimonio de fe ante la persecucion.",
-      "imagen": "images/q.jpg",
+      "imagen": "images/comullgacion.jpeg",
       "tipo": "reconocimiento"
     },
     {
       "año": "2026",
       "titulo": "Centenario de la Guerra Cristera",
       "descripcion": "Se cumple un siglo del inicio del conflicto. Es momento de reconciliacion, memoria y justicia historica para Jalisco. Proponemos honrar la memoria de Anacleto cambiando el nombre de la avenida.",
-      "imagen": "images/3.jpeg",
+      "imagen": "images/combatientes.jpeg",
       "tipo": "centenario"
     }
   ]
